@@ -222,8 +222,8 @@ h2{
 
 .quees{    
     background: rgba(237,237,237,1);
-    margin-left: 18%;
-    margin-right: 18%;
+    padding-left: 18%;
+    padding-right: 18%;
 }
 
 .titulo{
