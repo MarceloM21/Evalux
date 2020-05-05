@@ -21,11 +21,11 @@ a { color: #896dc6; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* page layout structure */ 
-#w { display: inline-block; width: 850px; margin-left: 16%; padding-top: 10px; padding-bottom: 50px;}
+#w { display: inline-block; width: 45%; margin-left: 16%; margin-right: 16%; padding-top: 10px; padding-bottom: 50px;}
 
 #container { 
   display: inline-block; 
-  width: 155%; 
+  width: 150%; 
   padding: 14px 20px 0px 50px; 
   background: rgb(255, 255, 255); 
   -webkit-border-radius: 4px; 

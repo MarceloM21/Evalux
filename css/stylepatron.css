@@ -42,7 +42,7 @@ header{
     width: 48px;
     padding: 5px;
     margin-top: 0;
-    margin-left: 100px;
+    margin-left: 5%;
     margin-right: -12px;
 }
 
@@ -67,7 +67,7 @@ header{
 }
 
 nav li{
-    margin-left: 160px;
+    margin-left: 10%;
     position:relative;
     display:block;
     opacity:0;
@@ -92,7 +92,7 @@ ul:hover > li{
     opacity:1;
 }
 nav > ul > li li ul{
-    transform:translateX(65.8%);
+    transform:translateX(120%);
     top:0; right:0;
 }
 
@@ -103,7 +103,7 @@ nav{
 }
 .alsao p{
     color:#203F4C;
-    margin-left: 150px;
+    margin-left:50%;
     padding:10px 10px 5px 10px;
     margin-top: 5px;
     width: 300px;
@@ -123,7 +123,7 @@ nav a{
     padding:10px;
     box-sizing:border-box;
     position:relative;
-    margin-left: -30px;
+    margin-left: 30%;
 }
 .le{
     margin-left: -1px;
@@ -167,13 +167,13 @@ li > ul > li.hover > ul > li{
    
 }
 .colaborar{
-  display: inline-flex;
+    display: inline-flex;
     font-size: 5px;
     text-decoration: none;
-    margin-top:-40px;
-    margin-bottom: 5px;
+    margin-top:-2%;
+    margin-bottom: 1%;
     border-right: 2px solid #6A8E99;
-    padding-right: 10px;
+    padding-right: 1%;
     position: absolute;
 } 
 
@@ -186,14 +186,15 @@ li > ul > li.hover > ul > li{
 .logousuario{
     position: absolute;
     margin-left: 6%;
+    margin-right: 2%;
     height: 22px;
     padding-right: 50px;
-    margin-top: -40px;
+    margin-top: -2%;
     
 }
 
 .logopatron{
-    padding-top: -200px;
+  
     width: 150px;
 }
 .titulopatron{
@@ -206,20 +207,24 @@ li > ul > li.hover > ul > li{
     
 
 }
+.fondo{
+    background:linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,0.98) 55%, rgba(219,219,219,0.97) 84%, rgba(218,222,226,0.96) 100%);
+ }
 
 .fondo li{
     list-style:none;
     text-align: left;
-    padding-right: 30px;
+    padding-right: 5%;
     width: 500px;
 }
 .fondo ul{
     
     list-style:none;
-   
+   margin-left: 15%;
+   margin-right: 15%;
     display: inline-flex;
     flex-grow: 1;
-    padding-bottom: 50px;
+    padding-bottom: 5%;
     padding-top: 50px;
     
   
@@ -246,8 +251,8 @@ li > ul > li.hover > ul > li{
 }
 .cajatexto{
     padding-bottom: 50px;
-    padding-left: 500px; 
-    padding-right:500px; 
+    padding-left: 30%; 
+    padding-right:30%; 
     text-align: left;
 }
 
@@ -255,10 +260,7 @@ li > ul > li.hover > ul > li{
     padding-bottom: 30px;
     text-align: center;
 }
-.fondo{
-   padding-left: 50px;
-    background:linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,0.98) 55%, rgba(219,219,219,0.97) 84%, rgba(218,222,226,0.96) 100%);
-}
+
 
 .buenaspracticas{
     background-color: white;
@@ -269,8 +271,8 @@ li > ul > li.hover > ul > li{
 }
 .cajatexto2{
     padding-top: 30px;
-    padding-left: 550px; 
-    padding-right:500px; 
+    padding-left: 30%; 
+    padding-right:30%; 
     text-align: left;
 }
 
@@ -287,18 +289,26 @@ li > ul > li.hover > ul > li{
     flex-wrap:1;
   }
 
+  .tagsyagregar{
+      margin-right: 20%;
+      margin-left: 10%;
+  }
 .contribuidor{
     display: inline-flex;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 10%;
     
     }
 
     .date{
-    margin-left: 1150px;
+       
+    margin-right: 20%;
+    margin-left: 380%;
     }   
     .Cont{
     display: inline-flex;
+    margin-right: 20%;
+    
     }
 
     .Cont p{
@@ -308,7 +318,7 @@ li > ul > li.hover > ul > li{
     .tags{
     display: inline-flex;
     
-    margin-left: 150px;
+    margin-left: 0%;
     margin-top: 10px;
     }
     .tagbox{
@@ -316,20 +326,24 @@ li > ul > li.hover > ul > li{
       margin-right: 20px;
       padding: 5px;
         }
-
+.tagsyagregar2{
+    margin-left: 20%;
+    margin-right: 20%;
+}
         
         .contribuidor2{
             display: inline-flex;
             margin-top: 20px;
-            margin-left:55px;            
+            margin-left:10%;            
             }
         
             .date2{
-           padding-left: 1160px;
+           margin-left: 200%;
+           margin-right: 20%;
             }   
             .Cont2{
             display: inline-flex;
-           padding-left: 0px;
+            margin-left: 1%;
             }
         
             .Cont2 p{
@@ -339,7 +353,8 @@ li > ul > li.hover > ul > li{
             .tags2{
               text-align: left;
                 display: inline-flex;
-                margin-left: -1210px;
+                margin-left: 12%;
+                margin-right: 200%;
                 padding-top: 10px;
             }
             .tagbox1{
@@ -351,8 +366,8 @@ li > ul > li.hover > ul > li{
 .containerbox{
     display:inline-flex;
     margin-top:-10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
     background-size: 50%;
     
 }
@@ -375,7 +390,14 @@ li > ul > li.hover > ul > li{
     background-color:#203F4C ;
  }
 
-
+ .butones{
+     margin-right: 20%;
+     margin-left: 20%;
+ }
+ .butones button{
+     margin-left: 10%;
+     margin-right: 20%;
+ }
   .buttonvermas{
     
     margin-top: 30px;
@@ -404,6 +426,7 @@ li > ul > li.hover > ul > li{
   .vermasbut{
       padding: 5px;
     margin-left: 81%;
+    margin-right: 1%;
     padding-left: 10px;
     padding-right: 10px;
     border-style: solid;
@@ -420,14 +443,14 @@ li > ul > li.hover > ul > li{
     display: inline-flex;
     font-weight: 400;
     height: 100px; 
-    padding-right: 10px;
+    margin-right: 2%;
 }
 
 
 .textocarita p{
     
     text-align: left;
-    padding-left: 5px;
+    padding-left: 1%;
     color: white;
     
 }
@@ -441,8 +464,8 @@ li > ul > li.hover > ul > li{
 
 .sugerenciasdeuso{
     margin-top: 20px;
-    margin-left: 300px;
-    margin-right: 250px;
+    margin-left: 17%;
+    margin-right: 15%;
     margin-bottom: 20px;
     height: 700px;
     background: #EAF4F0;
@@ -469,8 +492,8 @@ li > ul > li.hover > ul > li{
 
    .centradotexto{
       
-       padding-left: 250px;
-       padding-right: 5px;
+       margin-left: 30%;
+       margin-right: 1%;
        padding-bottom: 10px;
        text-align: left;
        grid-column: 2/4;
@@ -481,7 +504,8 @@ li > ul > li.hover > ul > li{
     }
      .sobreimg1{
         
-        padding-left: 60px;
+        padding-left: 15%;
+        padding-right: 10%;
         padding-bottom: 0;
         height: 90px;
         align-self: center;
@@ -492,8 +516,8 @@ li > ul > li.hover > ul > li{
         }
 
     .evitar{
-        margin-right: 100px;
-        padding-left: 100px;
+        margin-right: 10%;
+        padding-left: 15%;
         max-width: 600px;
         grid-column: 1/3;
         grid-row: 3/4;
@@ -503,7 +527,7 @@ li > ul > li.hover > ul > li{
          } 
 
         .recomendado{
-        padding-right: 100px;
+        margin-right: 15%;
         max-width: 600px;
         grid-column: 3/5;
         grid-row: 3/4;
@@ -556,8 +580,8 @@ li > ul > li.hover > ul > li{
     .lineasa {
         position: relative;
         text-align: center;
-        margin-left: 300px;
-        margin-right: 300px;
+        margin-left: 15%;
+        margin-right: 15%;
         margin-bottom: 30px;
         margin-top: 10px;
       }
