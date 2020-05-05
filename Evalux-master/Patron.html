@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a { text-decoration: none; }
+    </style>
+    <link rel="stylesheet" href="css/stylepatron.css">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/stylescomen.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+    
+</head>
+
+
+
+
+<body>
+  <header>
+    <a href="index.html"><img class="logoheader" src="svg/logo.svg" alt="Logo Evalux"></a>
+    <div class="nombre"><h3>Evalux</h3></div>
+    <div class="colabologo">
+      <div class="colaborar"><a href="colaborar.html" style="text-decoration:none"><h2>Colaborar</h2></a></div>
+      <a href="cuentausuario.html"><img class="logousuario" src="svg/logousuario.svg" alt="Logo usuario"></a>
+    </div>
+    <nav>
+		<ul>
+			<li class="alsao"><p>Clasificación de Patrones<img class="flecha" src="svg/drop.svg"></p>
+				<ul>
+                <li><a><img class="flecha" src="svg/patrones chicos-01.svg">Patrones de administración de cuenta</a>
+                  <ul>
+                     <li><a class="le">Cuentas verificadas</a></li>
+                     <li><a class="le">Definir preferencias de mensajería</a></li>
+                     <li><a class="le">Eliminar cuenta</a></li>
+                     <li><a class="le">Cambiar cuenta de pago a gratuita</a></li>
+                     <li><a class="le">Des-suscripción de lista de correo</a></li>
+                     <li><a class="le">Definición de preferencias de cuenta</a></li>
+                     <li><a class="le">Eliminar suscripción</a></li>
+                  </ul>  
+               </li>
+               <li><a><img class="flecha" src="svg/patrones chicos-02.svg">Patrones de gestión del contenido</a>
+                <ul>
+                    <li><a class="le">Compartir </a></li>
+                    <li><a class="le">Comentar una publicación</a></li>
+                    <li><a class="le">Eliminar contenido en RRSS</a></li>
+                    <li><a class="le">Calificación de un post</a></li>
+                    <li><a class="le">Evaluación de un producto o servicio</a></li>
+                </ul>  
+             </li>
+             <li><a><img class="flecha" src="svg/patrones chicos-03.svg">Patrones de accesos y seguridad</a>
+                <ul>
+                    <li><a class="le">Solicitar permisos del usuario</a></li>
+                    <li><a class="le">Captcha</a></li>
+                    <li><a class="le">Aplicaciones codependientes</a></li>
+                    <li><a class="le">Autenticación de usuario</a></li>
+                    <li><a class="le">Creación de cuenta</a></li>
+                    <li><a class="le">Recuperar cuenta</a></li>
+                    <li><a class="le">Cambio de contraseña</a></li>
+                </ul>  
+             </li>
+             <li><a><img class="flecha" src="svg/patrones chicos-04.svg">Patrones de guías Y facilitadores</a>
+                <ul>
+                    <li><a class="le">Contenido recomendado</a></li>
+                    <li><a class="le">Acceder a contenido</a></li>
+                    <li><a class="le">Chatbots</a></li>
+                    <li><a class="le">Wizard</a></li>
+                    <li><a class="le">Predicción de búsqueda</a></li>
+                    <li><a class="le">Segmentación de contenido</a></li>
+                    <li><a class="le">Actualización de contenido</a></li>
+                    <li><a class="le">Notificaciones</a></li>
+                </ul>  
+             </li>
+             <li><a><img class="flecha" src="svg/patrones chicos-05.svg">Patrones de proceso de compra</a>
+                <ul>
+                    <li><a class="le">Comparación de productos</a></li>
+                    <li><a class="le">Trackeo de envíos</a></li>
+                    <li><a class="le">Formas de pago</a></li>
+                    <li><a class="le">Carros de compra</a></li>
+                    <li><a class="le">Desbloquear característica</a></li>
+                </ul>  
+             </li>
+				</ul>
+			</li>
+		</ul>
+  </nav>
+ 
+
+</header>
+
+
+
+
+<div class="fondo">
+        <div style="background-image: url('images/bdegradado.png')", class="titulopatron">
+            <img class="logopatron" src="svg/megafono.svg" >
+            <h3>Patrones de Guías Y facilitadores</h3>
+            <h1>Contenido recomendado</h1>
+            <ul>
+                <li>Patrón que ofrece contenido distinto al contenido principal que el usuario busca o ocupa dentro de plataformas o sitios web, por lo generalse muestra acompañando en los extremos de la pantalla o se muestra entremedio del contenido.</li>
+                <li>Este patrón intenta persuadir y motivar al usuario para que este permanezca el mayor tiempo posible en una interfaz o para que este adquiera un producto o servicio determinado.</li>
+          </ul>  	
+        </div>
+        
+        
+</div>
+
+
+<div class="malaspracticas">
+    <h2> Malas practicas</h2>
+    <div class="cajatexto">
+    <p> <strong>LA TERCERA:</strong> El sitio muestra de dos formas distintas el contenido recomendado, muestra contenido entre la información de la noticia y también en la sección de abajo para recomendar contenido que se relaciona con el de la noticia.
+    </p>
+</div>
+<div class="carousel" data-flickity='{ "groupCells": true }'>
+    <div class="carousel-cell"><img src="images/ejemplos/Tercera-4239.png"><div class="iconoemoji"><img class="carita" src="svg/caritas-01.svg"> <div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Tercera-4240.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-02.svg"><div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Tercera-4241.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-04.svg"><div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Tercera-4243.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-06.svg"><div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Tercera-4288.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-03.svg"><div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Tercera-4291.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-05.svg"><div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+  </div>
+
+<div class="contribuidor">
+        <div class="Cont"><h4>Contribuidor:</h4><p>Camilo Caroca</p></div>
+        <div class="date"><h4>30/05/2020</h4></div>
+    </div>
+
+<div class="tagsyagregar">
+    
+    <div class="tags">
+        <div class="tagbox" ><p>#La Tercera</p></div>
+        <div class="tagbox" >#Diaro</div>
+        <div class="tagbox" >#Contingencia</div>
+    </div>
+   
+</div>
+
+  <style>
+        #myDIV {
+        display:none;
+        }
+    </style>
+    
+    <button Class="vermasbut"><img class="iconomas1" src="svg/Sin_titulo-5-02.svg">agregar casos</button>
+  <button class="buttonvermas" onclick="myFunction()"><img class="iconomas" src="svg/Sin_titulo-5-01.svg">Ver más</button>
+  <div id="myDIV">
+        <div class="containerbox">
+
+         <div style="background-image: url('images/ejemplos/Netflix.png')", class="box"> <div class="imgtext"><p>NETFLIX</p></div></div>
+         <div style="background-image: url('images/ejemplos/Latercera.png')", class="box"><div class="imgtext"><p>LA TERCERA</p></div></div>
+         <div style="background-image: url('images/ejemplos/Teletrece.png')"  class="box"><div class="imgtext"><p>TELETRECE</p></div></div>
+         <div style="background-image: url('images/ejemplos/instagram.png')" class="box"><div class="imgtext"><p>INSTAGRAM</p></div></div>
+         <div style="background-image: url('images/ejemplos/Publimetro.png')" class="box"><div class="imgtext"><p>PUBLIMETRO</p></div></div>
+         
+        
+        </div>
+    </div>
+
+
+</div>
+  
+
+
+<div class="buenaspracticas">
+    <h2>
+    Buenas prácticas
+    </h2>
+    <div class="cajatexto2">
+    <p>
+        <strong>NETFLIX:</strong> Aplicación multiplataforma, empleada para la reproducción de música vía streaming.  Ofrece recomendación por categorías (categorías personalizadas) Como por ejemplo las categorías "verlo nuevamente" y "continuar viendo contenido del usuario", además posee categorías agrupadas como "películas sombrías", "tendencias", entre otras.
+    </p>
+</div>
+<div class="carousel" data-flickity='{ "groupCells": true }'>
+    <div class="carousel-cell"><img src="images/ejemplos/Net-4399.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-01.svg"> <div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Net-4400.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-01.svg"> <div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Net-4401.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-01.svg"> <div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Net-4404.png" ><div class="iconoemoji"><img class="carita" src="svg/caritas-01.svg"> <div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+    <div class="carousel-cell"><img src="images/ejemplos/Net-4405.png"><div class="iconoemoji"><img class="carita" src="svg/caritas-01.svg"> <div class="textocarita"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida quam vitae lacus fringilla dapibus.</p></div></div></div>
+  </div>
+  <div class="tagsyagregar2">
+
+  <div class="contribuidor2">
+    <div class="Cont2"><h4>Contribuidor:</h4><p>Camilo Caroca</p></div>
+    <div class="date2"><h4>30/05/2020</h4></div>
+</div>
+
+
+
+</div>
+
+<div class="tags2">
+    <div class="tagbox1">#Streaming</div>
+    <div class="tagbox1">#video</div>
+</div>
+
+</div>
+
+
+
+  
+
+  
+
+  
+<div class="sugerenciasdeuso">
+    <h2>Sugerencias de uso</h2>
+    <div class="centradotexto">
+        <p>Estos son los aspectos mas relevantes encontrados en el patrón Contenido recomendado, los cuales fueron recopilados a partir de los distintos casos estudiados
+            </p></div>
+        <div class="evitar">
+        <img class="sobreimg1" src="images/buenomalo.png">
+        <h4>Evitar</h4>
+            <div class="textosugerencia">
+                <ul>
+                <li>Recomendar contenido que no tiene relación con el que visita el usuario anteriormente.</li>
+                <li>Recomendar contenido entre medio de la información principal de un sitio web.</li>
+                    
+                  </ul>
+                
+             
+            </div>
+        </div>
+    
+     <div class="recomendado">
+        <img class="sobreimg" src="images/buenomalo2.png">
+         <h4>Recomendado</h4>
+            <div class="textosugerencia">
+                <ul>
+                <li>Recomendar contenido que si tiene relación con lo que visita el usuario anteriormente. </li>
+                <li>Recomendar contenido personalizado con la información previa del usuario. </li>          
+                <li> Recomendar según las tendencias de los usuarios.</li>
+            </ul>
+            </div>
+        </div>
+</div>
+
+
+<div class="comentarios">
+    <h2>Comentarios</h2>
+</div>
+<div id="w">
+    
+    
+    <div id="container">
+      <ul id="comments">
+				<li class="cmmnt">
+				  <div class="avatar"><a href="javascript:void(0);"><img src="images/avatar.png" width="55" height="55" alt="DarkCubes photo avatar"></a></div>
+				  <div class="cmmnt-content">
+				    <div class="header"><a href="javascript:void(0);" class="userlink">Usuario123</a> - <span class="pubdate">posted 1 week ago</span></div>
+				    <p>Buen contenido el de este patrón, considero muy importante terminar con las malas prácticas que se dan con los anuncios en los sitios web, en especial las prácticas que se ven en el ejemplo del "diario el día", que lo único que logran es alejar al usuario del sitio.</p>
+				  </div>
+				  
+				  <ul class="replies">
+				    <li class="cmmnt">
+				      <div class="avatar"><a href="javascript:void(0);"><img src="images/avatar.png" width="55" height="55" alt="Sir_Pig photo avatar"></a></div>
+				      <div class="cmmnt-content">
+                <div class="header"><a href="javascript:void(0);" class="userlink">Usuario345</a> - <span class="pubdate">posted 1 day ago</span></div>
+				      <p>Sed felis lorem, venenatis sed malesuada vitae, tempor vel turpis. Mauris in dui velit, vitae mollis risus.</p>
+				      <p>Morbi id neque nisl, nec fringilla lorem. Duis molestie sodales leo a blandit. Mauris sit amet ultricies libero. Etiam quis diam in lacus molestie fermentum non vel quam.</p>
+				      </div> 
+				    </li>
+				  </ul>
+				</li>
+        
+        <li class="cmmnt">
+          <div class="avatar"><a href="javascript:void(0);"><img src="images/avatar.png" width="55" height="55" alt="pikabob photo avatar"></a></div>
+          <div class="cmmnt-content">
+            <div class="header"><a href="javascript:void(0);" class="userlink">Usuario567</a> - <span class="pubdate">posted 6 days ago</span></div>
+            <p>Listen you are going to get a kick out of this one. I've got to tell one of the funniest jokes of all time.</a></p>
+          </div>
+        </li>
+        </div>
+
+</div>
+
+
+  <div class="lineasa"><span>Ver más comentarios</span></div>
+
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+</body>
+
+<footer>
+  <div class="left">
+      <a href="index.html"><img class="logofooter" src="svg/logoblanco.svg" alt="Logo Evalux"></a>
+      <div class="nombre2"><h3>Evalux</h3></div>
+      <p><a href="https://twitter.com/home?lang=ES"><img class="logofooter2" src="svg/redes blanco-01.svg" alt="Logo twitter"></a><a href="https://www.facebook.com/"><img class="logofooter2" src="svg/redes blanco-02.svg" alt="Logo facebook"></a><a href="https://www.instagram.com/"><img class="logofooter2" src="svg/redes blanco-03.svg" alt="Logo instagram"></a><br>Copyright 2020 Evalux es una marga registrada.<br>Todos los derechos reservados.</p>
+  </div>
+  <div class="right">    
+      <a href="#"><img class="logofooter3" src="svg/ead.svg" alt="Logo ead"></a><img class="logofooter4" src="images/casiopea-header.png" alt="Logo Casiopea"></a>
+      <p><br><br>Contacto<br>contacto@evalux.cl<br>+569 1234 5678</p>
+  </div>
+</footer>
+
+</html>
